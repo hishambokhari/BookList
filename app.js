@@ -11,3 +11,13 @@ function UI(){
 
 }
 
+
+// Event listeners
+
+document.getElementById('book-form').addEventListener('submit',
+function(e){
+    console.log('test');
+
+    e.preventDefault();
+});
+

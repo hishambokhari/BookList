@@ -21,8 +21,12 @@ function(e){
         author = document.getElementById('author').value,
         isbn = document.getElementById('isbn').value
 
+    // Instanstiate a book
+    const book = new Book(title,author,isbn);
 
-        
+    console.log(book);
+
+
         
     e.preventDefault();
 });

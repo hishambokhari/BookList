@@ -16,8 +16,14 @@ function UI(){
 
 document.getElementById('book-form').addEventListener('submit',
 function(e){
-    console.log('test');
+    // get form values
+    const title = document.getElementById('title').value,
+        author = document.getElementById('author').value,
+        isbn = document.getElementById('isbn').value
 
+
+        
+        
     e.preventDefault();
 });
 
